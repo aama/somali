@@ -5,123 +5,116 @@
   "datasource": "Saeed, John Ibrahim. 1999. Somali. London Oriental and African Language Library.l. vol. 10 . Amsterdam/Philadelphia: J. Benjamins[JS99]; Orwin, Martin. 1995. Colloquial Somali. Colloquial Series. London/New York: Routledge [MO95]",
   "datasourceNotes": "1) In general, paradigms are primarily referenced to Saeed 1999, in some cases paradigms are only described, but not given in full in Saeed, nad a reference to the full paradigm is given in Martin 1995. [MARTIN REFERENCEDS TO BE ADDED.]2) The paradigms of keen- are taken from Orwin1995 in order to provide a comparable set of paradigms to illustrate the reduced conjugations. 3) Notes on systematic differences between JS and MO: a) -eén for -ée; b) -ay for -ey",
   "transcription": { 
-    "Consonants": {
-      "general": "cf. transcription table",
-      "note": [
-        "'' = ''",
-        "'' = '' "
-      ]},
-    "Vowels": {
-      "inventory": "i e a o u; ii ee aa oo uu"},
-    "Prosody": {
-      "Type": "Tone",
-      "Tone": "'v́(v)' High; 'v(v)' Low ; 'v̀' Falling"}}, 
+    "Consonants": "cf. transcription table",
+    "Vowels": "i e a o u; ii ee aa oo uu",
+    "Prosody": "pitch: 'v́(v)' High; 'v(v)' Low ; 'v̀' Falling"}, 
   "geodemoURL": "http://www.ethnologue.com/language/som",
   "geodemoTXT": "Standard Somali is based principally on the Northern variety of a group of closely related 'Somaloid' language varieties spoken in the Horn of African and Kenya. Standard Somali is spoken throughout the region historically known as Somalia, and in adjacent countries (Djibouti, Ethiopia, Kenya).",
   "schemata": {
-    "case": [
-      "Nominative",
-      "Object"
-    ],
-    "clauseType": [
-      "Main",
-      "SubFull",
-      "SubReduced"
-    ],
-    "conjClass": [
-      "Prefix",
-      "Suffix"
-    ],
-    "conjSubClass": [
-      "C1",
-      "C2A",
-      "C2B",
-      "C3A",
-      "C3B"
-    ],
-    "genPoss": [
-      "Fem",
-      "Masc"
-    ],
-    "gender": [
-      "Common",
-      "Fem",
-      "Invariable",
-      "Masc"
-    ],
-    "lexeme": [
-      "furo",
-      "joogso",
-      "kari",
-      "keen",
-      "qaado",
-      "samee",
-      "sug",
-      "yahay",
-      "yar",
-      "yaree",
-      "yidi",
-      "yiil",
-      "yimi",
-      "yiqiin"
-    ],
-    "morphClass": [
-      "Infinitive",
-      "SubVarTense"
-    ],
-    "number": [
-      "Invariable",
-      "Plural",
-      "Singular"
-    ],
-    "person": [
-      "Invariable",
-      "Person1",
-      "Person1ex",
-      "Person1in",
-      "Person2",
-      "Person3"
-    ],
-    "polarity": [
-      "Affirmative",
-      "Negataive",
-      "Negative"
-    ],
-    "pos": [
-      "Pronoun",
-      "Verb"
-    ],
-    "proClass": [
-      "Independent",
-      "ObjClitic",
-      "Possessive",
-      "SubjClit"
-    ],
-    "subType": [
-      "SubClass1",
-      "SubClass2"
-    ],
-    "subclauseCase": [
-      "Absolute",
-      "Absolutive",
-      "Subject"
-    ],
-    "tam": [
-      "Conditional",
-      "Future",
-      "Imperative",
-      "Optative",
-      "PastHabitual",
-      "PastIndependent",
-      "PastInvar",
-      "PastProgressive",
-      "PastSimple",
-      "Potential",
-      "PresentGeneral",
-      "PresentProgressive",
-      "PresentProgressive2"
-    ]
-  },
+  "case": [
+    "Nominative",
+    "Object"
+  ],
+  "clauseType": [
+    "Main",
+    "SubFull",
+    "SubReduced"
+  ],
+  "conjClass": [
+    "Prefix",
+    "Suffix"
+  ],
+  "conjSubClass": [
+    "C1",
+    "C2A",
+    "C2B",
+    "C3A",
+    "C3B"
+  ],
+  "genPoss": [
+    "Fem",
+    "Masc"
+  ],
+  "gender": [
+    "Common",
+    "Fem",
+    "Invariable",
+    "Masc"
+  ],
+  "lexeme": [
+    "furo",
+    "joogso",
+    "kari",
+    "keen",
+    "qaado",
+    "samee",
+    "sug",
+    "yahay",
+    "yar",
+    "yaree",
+    "yidi",
+    "yiil",
+    "yimi",
+    "yiqiin"
+  ],
+  "morphClass": [
+    "Infinitive",
+    "SubVarTense"
+  ],
+  "number": [
+    "Invariable",
+    "Plural",
+    "Singular"
+  ],
+  "person": [
+    "Invariable",
+    "Person1",
+    "Person1ex",
+    "Person1in",
+    "Person2",
+    "Person3"
+  ],
+  "polarity": [
+    "Affirmative",
+    "Negative"
+  ],
+  "pos": [
+    "Pronoun",
+    "Verb"
+  ],
+  "proClass": [
+    "Independent",
+    "ObjClitic",
+    "Possessive",
+    "SubjClit"
+  ],
+  "subType": [
+    "SubClass1",
+    "SubClass2"
+  ],
+  "subclauseCase": [
+    "Absolute",
+    "Absolutive",
+    "Subject"
+  ],
+  "tam": [
+    "Conditional",
+    "Future",
+    "Imperative",
+    "Optative",
+    "PastHabitual",
+    "PastIndependent",
+    "PastProgressive",
+    "PastSimple",
+    "Potential",
+    "PresentGeneral",
+    "PresentProgressive",
+    "PresentProgressive2"
+  ],
+  "tamType": [
+    "PastInvar"
+  ]
+},
   "lexemes": {
     "furo": {
       "pos": "Verb",
@@ -159,7 +152,9 @@
     "samee": {
       "pos": "Verb",
       "lemma": "samè",
-      "gloss": "do"
+      "gloss": "do",
+      "conjClass": "Suffix",
+      "conjSubClass": "C2B"
     },
     "sug": {
       "pos": "Verb",
@@ -2368,7 +2363,7 @@
       "common": {
         "clauseType": "Main",
         "conjClass": "Prefix",
-        "tam": "PastInvar",
+        "tamType": "PastInvar",
         "polarity": "Negative",
         "pos": "Verb"
       },
@@ -4270,14 +4265,14 @@
       ]
     },
     {
-      "label": "som-VerbSuffixC2B-yar-MainPastSimpleNegataive",
+      "label": "som-VerbSuffixC2B-yar-MainPastSimpleNegative",
       "note": "JS99p.86",
       "common": {
         "clauseType": "Main",
         "conjClass": "Suffix",
         "conjSubClass": "C2B",
         "lexeme": "yar",
-        "polarity": "Negataive",
+        "polarity": "Negative",
         "pos": "Verb",
         "tam": "PastSimple"
       },
@@ -5191,7 +5186,7 @@
       "common": {
         "clauseType": "Main",
         "conjClass": "Suffix",
-        "tam": "PastInvar",
+        "tamType": "PastInvar",
         "polarity": "Negative",
         "pos": "Verb"
       },
