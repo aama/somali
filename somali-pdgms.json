@@ -124,7 +124,7 @@
     "joogso": {
       "pos": "Verb",
       "lemma": "joogsó",
-      "gloss": "stop oneself",
+      "gloss": "stop (int)",
       "conjClass": "Suffix",
       "conjSubClass": "C3A"
     },
@@ -145,7 +145,7 @@
     "qaado": {
       "pos": "Verb",
       "lemma": "qaadó",
-      "gloss": "take for oneself",
+      "gloss": "take for self",
       "conjClass": "Suffix",
       "conjSubClass": "C3B"
     },
@@ -177,7 +177,7 @@
     "yaree": {
       "pos": "Verb",
       "lemma": "yarèe",
-      "gloss": "make small (cf. yár ‘small’)",
+      "gloss": "make small",
       "conjClass": "Suffix",
       "conjSubClass": "C2B"
     },
