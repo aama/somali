@@ -29,8 +29,7 @@
     "C2A",
     "C2B",
     "C3A",
-    "C3B",
-    "C3B3"
+    "C3B"
   ],
   "genPoss": [
     "Fem",
@@ -105,6 +104,7 @@
     "Imperative",
     "Optative",
     "Past",
+    "PastHabirual",
     "PastHabitual",
     "PastIndependent",
     "PastProgressive",
@@ -330,9 +330,10 @@
       ]
     },
     {
-      "label": "som-VerbPrefix-yahay-ConditionalAffirmative",
+      "label": "som-VerbPrefix-yahay-MainConditionalAffirmative",
       "note": "JS99p.102",
       "common": {
+        "clauseType": "Main",
         "conjClass": "Prefix",
         "lexeme": "yahay",
         "polarity": "Affirmative",
@@ -351,9 +352,10 @@
       ]
     },
     {
-      "label": "som-VerbPrefix-yahay-ConditionalNegative",
+      "label": "som-VerbPrefix-yahay-MainConditionalNegative",
       "note": "JS99p.102",
       "common": {
+        "clauseType": "Main",
         "conjClass": "Prefix",
         "lexeme": "yahay",
         "polarity": "Negative",
@@ -372,9 +374,10 @@
       ]
     },
     {
-      "label": "som-VerbPrefix-yahay-FutureAffirmative",
+      "label": "som-VerbPrefix-yahay-MainFutureAffirmative",
       "note": "cf. JS99p.90 :: extrapolated",
       "common": {
+        "clauseType": "Main",
         "conjClass": "Prefix",
         "lexeme": "yahay",
         "polarity": "Affirmative",
@@ -839,7 +842,7 @@
         "lexeme": "yidi",
         "polarity": "Negative",
         "pos": "Verb",
-        "tam": "Past"
+        "tam": "PastHabitual"
       },
       "terms": [
         ["number" ,"person" ,"gender" ,"token"],
@@ -899,7 +902,7 @@
         "lexeme": "yidi",
         "polarity": "Negative",
         "pos": "Verb",
-        "tam": "Past"
+        "tam": "PastProgressive"
       },
       "terms": [
         ["number" ,"person" ,"gender" ,"token"],
@@ -1730,7 +1733,7 @@
         "lexeme": "yimi",
         "polarity": "Negative",
         "pos": "Verb",
-        "tam": "Past"
+        "tam": "PastHabirual"
       },
       "terms": [
         ["number" ,"person" ,"gender" ,"token"],
@@ -1829,7 +1832,7 @@
         "lexeme": "yimi",
         "polarity": "Negative",
         "pos": "Verb",
-        "tam": "Past"
+        "tam": "PastSimple"
       },
       "terms": [
         ["number" ,"person" ,"gender" ,"token"],
@@ -2144,12 +2147,13 @@
       ]
     },
     {
-      "label": "som-VerbPrefix-yiqiin-ImperativeNegative",
+      "label": "som-VerbPrefix-yiqiin-MainImperativeNegative",
       "note": "JS99p.97",
       "common": {
         "pos": "Verb",
         "lexeme": "yiqiin",
         "conjClass": "Prefix",
+        "clauseType": "Main",
         "polarity": "Negative",
         "tam": "Imperative"
       },
@@ -2236,7 +2240,7 @@
         "lexeme": "yiqiin",
         "polarity": "Negative",
         "pos": "Verb",
-        "tam": "Past"
+        "tam": "PastHabitual"
       },
       "terms": [
         ["number" ,"person" ,"gender" ,"token"],
@@ -2318,7 +2322,7 @@
         "lexeme": "yiqiin",
         "polarity": "Negative",
         "pos": "Verb",
-        "tam": "Past"
+        "tam": "PastSimple"
       },
       "terms": [
         ["number" ,"person" ,"gender" ,"token"],
@@ -2894,6 +2898,7 @@
       "note": "JS99p.90",
       "common": {
         "conjSubClass": "C1",
+        "clauseType": "Main",
         "pos": "Verb",
         "lexeme": "sug",
         "conjClass": "Suffix",
@@ -3391,29 +3396,6 @@
         ["Plural" ,"Person1" ,"Common" ,"súgaynó"],
         ["Plural" ,"Person2" ,"Common" ,"súgaysàan"],
         ["Plural" ,"Person3" ,"Common" ,"súgayàan"]
-      ]
-    },
-    {
-      "label": "som-VerbSuffixC2A-kari-MainConditionalAffirmative",
-      "note": "JS99p.91",
-      "common": {
-        "conjSubClass": "C2A",
-        "pos": "Verb",
-        "lexeme": "kari",
-        "clauseType": "Main",
-        "conjClass": "Suffix",
-        "polarity": "Affirmative",
-        "tam": "Conditional"
-      },
-      "terms": [
-        ["number" ,"person" ,"gender" ,"token"],
-        ["Singular" ,"Person1" ,"Common" ,"karín lahaa"],
-        ["Singular" ,"Person2" ,"Common" ,"karín lahayd"],
-        ["Singular" ,"Person3" ,"Masc" ,"karín lahaa"],
-        ["Singular" ,"Person3" ,"Fem" ,"karín lahayd"],
-        ["Plural" ,"Person1" ,"Common" ,"karín lahayn"],
-        ["Plural" ,"Person2" ,"Common" ,"karín lahaydeen"],
-        ["Plural" ,"Person3" ,"Common" ,"karín lahaayeen"]
       ]
     },
     {
@@ -4205,7 +4187,7 @@
         "clauseType": "Main",
         "conjClass": "Suffix",
         "conjSubClass": "C2B",
-        "lexeme": "yaree",
+        "lexeme": "yar",
         "polarity": "Negative",
         "pos": "Verb",
         "tam": "PastSimple"
@@ -5031,6 +5013,47 @@
       ]
     },
     {
+      "label": "som-VerbSuffixC3B-qaado-MainPastHabitualAffirmative",
+      "note": "JS99p.87 ;; extrapolated",
+      "common": {
+        "clauseType": "Main",
+        "conjClass": "Suffix",
+        "conjSubClass": "C3B",
+        "lexeme": "qaado",
+        "polarity": "Affirmative",
+        "pos": "Verb",
+        "tam": "PastHabitual"
+      },
+      "terms": [
+        ["number" ,"person" ,"gender" ,"token"],
+        ["Singular" ,"Person1" ,"Common" ,"qaadán jirey"],
+        ["Singular" ,"Person2" ,"Common" ,"qaadán jirtey"],
+        ["Singular" ,"Person3" ,"Masc" ,"qaadán jirey"],
+        ["Singular" ,"Person3" ,"Fem" ,"qaadán jirtey"],
+        ["Plural" ,"Person1" ,"Common" ,"qaadán jirney"],
+        ["Plural" ,"Person2" ,"Common" ,"qaadán jirteen"],
+        ["Plural" ,"Person3" ,"Common" ,"qaadán jireen"]
+
+      ]
+    },
+    {
+      "label": "som-VerbSuffixC3B-qaado-MainPastHabitualNegative",
+      "note": "JS99p.87",
+      "common": {
+        "clauseType": "Main",
+        "conjClass": "Suffix",
+        "conjSubClass": "C3B",
+        "lexeme": "qaado",
+        "polarity": "Negative",
+        "pos": "Verb",
+        "tam": "PastHabitual"
+      },
+      "terms": [
+        ["number" ,"person" ,"gender" ,"token"],
+        ["Invariable" ,"Invariable" ,"Invariable" ,"qaadán jirín"]
+      ]
+    },
+    {
       "label": "som-VerbSuffixC3B-qaado-MainPastSimpleAffirmative",
       "note": "JS99p.86",
       "common": {
@@ -5070,58 +5093,6 @@
         ["Invariable" ,"Invariable" ,"Invariable" ,"má ~ aan qaadán"]
       ]
     },
-    {
-      "label": "som-VerbSuffixC3B-qaado-MainPastHabitualNegative",
-      "note": "JS99p.87",
-      "common": {
-        "clauseType": "Main",
-        "conjClass": "Suffix",
-        "conjSubClass": "C3B3",
-        "lexeme": "qaado",
-        "polarity": "Negative",
-        "pos": "Verb",
-        "tam": "PastHabitual"
-      },
-      "terms": [
-        ["number" ,"person" ,"gender" ,"token"],
-        ["Invariable" ,"Invariable" ,"Invariable" ,"qaadán jirín"]
-      ]
-    },
-    {
-      "label": "som-VerbSuffixC3B-qaado-MainPastSimpleNegative",
-      "note": "JS99p.86",
-      "common": {
-        "clauseType": "Main",
-        "conjClass": "Suffix",
-        "conjSubClass": "C3B",
-        "lexeme": "qaado",
-        "polarity": "Negative",
-        "pos": "Verb",
-        "tam": "PastSimple"
-      },
-      "terms": [
-        ["number" ,"person" ,"gender" ,"token"],
-        ["Invariable" ,"Invariable" ,"Invariable" ,"má ~ aan qaadán"]
-      ]
-    },
-    {
-      "label": "som-VerbSuffixC3B-qaado-MainPastHabitualNegative",
-      "note": "JS99p.87",
-      "common": {
-        "clauseType": "Main",
-        "conjClass": "Suffix",
-        "conjSubClass": "C3B3",
-        "lexeme": "qaado",
-        "polarity": "Negative",
-        "pos": "Verb",
-        "tam": "PastHabitual"
-      },
-      "terms": [
-        ["number" ,"person" ,"gender" ,"token"],
-        ["Invariable" ,"Invariable" ,"Invariable" ,"qaadán jirín"]
-      ]
-    },
-
     {
       "label": "som-VerbSuffixC3B-qaado-MainPresentGeneralAffirmative",
       "note": "JS99p.88",
